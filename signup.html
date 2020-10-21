@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>2학기 첫번째 프로젝트</title>
+    <link rel="stylesheet" href="./css/signup.css" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+  </head>
+  <style>
+    a,
+    p {
+      font-family: "NanumSquare";
+    }
+  </style>
+  <body>
+    <div class="container1">
+      <div class="header">
+        <div class="main-menu">
+          <div class="title">
+            <a href="./index.html" title="TripTrip" class="logo_title">
+              TripTrip
+            </a>
+          </div>
+          <div class="sub-menu">
+            <a href="./sub1.html" title="겔러리" class="logo_gallery">갤러리</a>
+            <a href="./sub2.html" title="게시판" class="logo_notice">게시판</a>
+            <a href="./login.html" title="로그인" class="logo_login">로그인</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="center_box_1">
+        <div class="img_box">
+          <img src="./image/person.jpg" alt="" />
+        </div>
+        <div class="text_box">
+          <p>회원가입</p>
+        </div>
+      </div>
+      <div class="center_box_2">
+        <div class="signUp">
+          <div class="idPw">
+            <fieldset>
+              <div class="id_title">
+                <p>아이디</p>
+              </div>
+              <div class="id_box">
+                <input
+                  type="text"
+                  class="input_1"
+                  placeholder="아이디를 입력해주세요."
+                />
+              </div>
+              <div class="email_title">
+                <p>이메일</p>
+              </div>
+              <div class="email_box">
+                <input
+                  type="email"
+                  class="input_2"
+                  placeholder="이메일을 입력해주세요."
+                />
+              </div>
+              <div class="pwd_title">
+                <p>비밀번호</p>
+              </div>
+              <div class="pwd_box">
+                <input
+                  type="text"
+                  class="input_3"
+                  placeholder="비밀번호를 입력해주세요."
+                />
+              </div>
+              <div class="pwdCheck_title">
+                <p>비밀번호 재확인</p>
+              </div>
+              <div class="pwdCheck_box">
+                <input
+                  type="text"
+                  class="input_4"
+                  placeholder="비밀번호를 다시 한번 입력해주세요."
+                />
+              </div>
+              <div class="signUp_button">
+                <button type="button" class="btn_1" onclick="signUpBtn()">
+                  <span>가입하기</span>
+                </button>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container4">
+      <div class="footer">
+        <p>produced by sangjun&yaedo</p>
+      </div>
+    </div>
+    <script src="./buttonEvent.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>2학기 첫번째 프로젝트</title>
+    <link rel="stylesheet" href="./css/sub3.css" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+      integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css"
+      integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    a,
+    p {
+      font-family: "NanumSquare";
+    }
+  </style>
+  <body>
+    <div class="container1">
+      <div class="header">
+        <div class="main-menu">
+          <div class="title">
+            <a href="./index.html" title="TripTrip" class="logo_title">
+              TripTrip
+            </a>
+          </div>
+          <div class="sub-menu">
+            <a href="./sub1.html" title="겔러리" class="logo_gallery">갤러리</a>
+            <a href="./sub2.html" title="게시판" class="logo_notice">게시판</a>
+            <a href="./login.html" title="로그인" class="logo_login">로그인</a>
+          </div>
+        </div>
+        <div class="main-photo">
+          <img src="./image/beach-1867590_1920.jpg" alt="메인사진" />
+          <p class="main-text">
+            <span class="txt_main">게시판</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="board">
+        <div class="board_title">
+          <span>제목</span>
+          <input type="text" class="title_1" />
+        </div>
+        <div class="board_content">
+          <div class="board_content_title">
+            <p>글 작성</p>
+          </div>
+        </div>
+        <div class="board_content_content">
+          <textarea
+            cols="140"
+            rows="35"
+            placeholder="내용을 입력해주세요."
+          ></textarea>
+        </div>
+        <div class="board_button">
+          <button class="btn_01" type="button" onclick="backBtn()">취소</button>
+          <button class="btn_02" type="button" onclick="enrollmentBtn()">
+            등록
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container4">
+      <div class="footer">
+        <p>produced by sangjun&yaedo</p>
+      </div>
+    </div>
+    <script src="./buttonEvent2.js"></script>
+  </body>
+</html>
