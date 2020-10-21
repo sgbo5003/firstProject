@@ -1,0 +1,238 @@
+@charset "utf-8";
+/*container1*/
+
+.container1 {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 759px;
+  max-width: 1920px;
+}
+
+.container1 .header {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.container1 .header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container1 .header .main-menu {
+  background-color: black;
+  max-width: 1920px;
+  width: 100%;
+  /*height: 93px;*/
+  height: 83px;
+}
+
+.container1 .header .main-menu .title {
+  display: inline-block;
+  /*margin-top: 29px;*/
+  margin-top: 24px;
+  margin-left: 30px;
+}
+
+.container1 .header .main-menu .title a {
+  font-weight: bold;
+  font-size: 25px;
+}
+.container1 .header .main-menu .sub-menu {
+  display: inline-block;
+  float: right;
+  /*margin-top: 36px;*/
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.container1 .header .main-menu .sub-menu a {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.container1 .header .main-photo img {
+  max-width: 1903px;
+}
+.container1 .header .main-photo .main-text {
+  position: absolute;
+  top: 300px;
+  right: 374px;
+  color: #fff;
+  text-align: center;
+  line-height: 68px;
+}
+
+.container1 .header .main-photo .main-text .txt_main {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.container1 .header .main-photo .main-text .txt_sub {
+  font-size: 23px;
+}
+
+/* container2 */
+
+.container2 {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 650px;
+  max-width: 1200px;
+}
+
+.container2 .section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container2 .section .content1 {
+  padding-left: 127px;
+  padding-bottom: 52px;
+  position: relative;
+}
+
+.container2 .section .content1 .content2 {
+  clear: both;
+  position: absolute;
+  right: 145px;
+  top: -5px;
+}
+
+.container2 .section .content1 .content2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.container2 .section .content1 .content2 .img_search {
+  background-color: #818181;
+}
+
+.container2 .section .content1 .post p {
+  font-size: 20px;
+  color: #5d5a5a;
+}
+
+.container2 .section .content3 {
+  padding-left: 127px;
+}
+
+.container2 .section .content3 .content3_img {
+  float: left;
+  padding-right: 51px;
+  padding-bottom: 60px;
+}
+
+.container2 .section .content3 .content3_txt {
+  padding-top: 50px;
+  max-width: 902px;
+}
+
+.container2 .section .content3 .content3_txt .content3_title {
+  padding-bottom: 31px;
+}
+
+.container2 .section .content3 .content3_txt .content3_content {
+  line-height: 25px;
+}
+
+.container2 .section .content4 {
+  padding-left: 127px;
+  clear: both;
+}
+
+.container2 .section .content4 .content4_img {
+  float: left;
+  padding-right: 51px;
+}
+
+.container2 .section .content4 .content4_txt {
+  padding-top: 50px;
+  max-width: 902px;
+}
+
+.container2 .section .content4 .content4_txt .content4_title {
+  padding-bottom: 31px;
+}
+
+.container2 .section .content4 .content4_txt .content4_content {
+  line-height: 25px;
+}
+
+/*container3*/
+
+.container3 {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 237px;
+  max-width: 1920px;
+  background-color: #d5d0d0;
+  padding-top: 103px;
+}
+
+.container3 .content {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: 486px;
+}
+
+.container3 .event {
+  position: relative;
+  float: left;
+  width: 42%;
+}
+
+.container3 .content .event a:first-child,
+.container3 .content .notice a:first-child {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 29px;
+}
+
+.container3 .content .event a,
+.container3 .content .notice a {
+  width: 50%;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+/*container4*/
+
+.container4 {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 150px;
+  max-width: 1920px;
+  background-color: #000000;
+}
+
+.container4 .footer {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container4 .footer p {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 67px;
+  font-weight: bold;
+}
+
+.txt_bold {
+  font-weight: bold;
+}

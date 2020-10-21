@@ -1,0 +1,206 @@
+@charset "utf-8";
+/*container1*/
+
+.container1 {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 83px;
+  max-width: 1920px;
+}
+
+.container1 .header {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.container1 .header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container1 .header .main-menu {
+  background-color: black;
+  max-width: 1920px;
+  width: 100%;
+  /*height: 93px;*/
+  height: 83px;
+}
+
+.container1 .header .main-menu .title {
+  display: inline-block;
+  /*margin-top: 29px;*/
+  margin-top: 24px;
+  margin-left: 30px;
+}
+
+.container1 .header .main-menu .title a {
+  font-weight: bold;
+  font-size: 25px;
+}
+.container1 .header .main-menu .sub-menu {
+  display: inline-block;
+  float: right;
+  /*margin-top: 36px;*/
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.container1 .header .main-menu .sub-menu a {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/*container2*/
+
+.container2 {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 930px;
+  max-width: 1920px;
+  background-color: #faf8f8;
+}
+
+.container2 .center_box_1 {
+  width: 575px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 79px;
+}
+
+.container2 .center_box_1 .text_box {
+  margin-top: 10px;
+}
+
+.container2 .center_box_1 .text_box p {
+  font-size: 30px;
+}
+
+.container2 .center_box_1 img {
+  background-color: #faf8f8;
+}
+
+.container2 .center_box_2 {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container2 .center_box_2 .signUp {
+  width: 575px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container2 .center_box_2 .signUp .id_title {
+  margin-right: 353px;
+  font-size: 24px;
+}
+
+.container2 .center_box_2 .signUp .idPw .id_box {
+  margin-top: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .email_title {
+  font-size: 24px;
+  margin-right: 352px;
+  margin-top: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .email_box {
+  margin-top: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .pwd_title {
+  font-size: 24px;
+  margin-right: 327px;
+  margin-top: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .pwd_box {
+  margin-top: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .pwdCheck_title {
+  font-size: 24px;
+  margin-right: 249px;
+  margin-top: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .pwdCheck_box {
+  margin-top: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .signUP_button {
+  margin-top: 43px;
+}
+
+.container2 .center_box_2 .signUp .idPw .id_box input {
+  width: 414px;
+  height: 42px;
+  font-size: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .email_box input {
+  width: 414px;
+  height: 42px;
+  font-size: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .pwd_box input {
+  width: 414px;
+  height: 42px;
+  font-size: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .pwdCheck_box input {
+  width: 414px;
+  height: 42px;
+  font-size: 16px;
+}
+
+.container2 .center_box_2 .signUp .idPw .signUp_button {
+  margin-top: 30px;
+}
+
+.container2 .center_box_2 .signUp .idPw .signUp_button button {
+  width: 422px;
+  height: 50px;
+  background-color: #383838;
+  color: #ffffff;
+  font-size: 23px;
+}
+
+/*container4*/
+
+.container4 {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 150px;
+  max-width: 1920px;
+  background-color: #000000;
+}
+
+.container4 .footer {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container4 .footer p {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 67px;
+  font-weight: bold;
+}
+
+.txt_bold {
+  font-weight: bold;
+}
